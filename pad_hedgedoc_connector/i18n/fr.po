@@ -1,0 +1,135 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pad_hedgedoc_connector
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-10 06:23+0000\n"
+"PO-Revision-Date: 2022-08-10 06:23+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pad_hedgedoc_connector
+#: model_terms:ir.ui.view,arch_db:pad_hedgedoc_connector.res_config_settings_view_form_hedgedoc
+msgid "<span class=\"o_form_label\">Hedgedoc URL</span>"
+msgstr "<span class=\"o_form_label\">Hedgedoc URL</span>"
+
+#. module: pad_hedgedoc_connector
+#: model_terms:ir.ui.view,arch_db:pad_hedgedoc_connector.create_hedgedoc_pad_wizard
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: pad_hedgedoc_connector
+#: model:ir.model,name:pad_hedgedoc_connector.model_res_company
+msgid "Companies"
+msgstr "Sociétés"
+
+#. module: pad_hedgedoc_connector
+#: model:ir.model,name:pad_hedgedoc_connector.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de config"
+
+#. module: pad_hedgedoc_connector
+#: model_terms:ir.ui.view,arch_db:pad_hedgedoc_connector.create_hedgedoc_pad_wizard
+msgid "Create"
+msgstr "Créer"
+
+#. module: pad_hedgedoc_connector
+#: model:ir.model,name:pad_hedgedoc_connector.model_create_hedgedoc_pad_wizard
+msgid "Create a Hedgedoc Pad"
+msgstr "Créer un pad Hedgedoc"
+
+#. module: pad_hedgedoc_connector
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_create_hedgedoc_pad_wizard__create_uid
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_hedgedoc_pad__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: pad_hedgedoc_connector
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_create_hedgedoc_pad_wizard__create_date
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_hedgedoc_pad__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: pad_hedgedoc_connector
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_create_hedgedoc_pad_wizard__display_name
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_hedgedoc_pad__display_name
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_res_company__display_name
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#. module: pad_hedgedoc_connector
+#: model_terms:ir.ui.view,arch_db:pad_hedgedoc_connector.res_config_settings_view_form_hedgedoc
+msgid "Hedgedoc"
+msgstr "Hedgedoc"
+
+#. module: pad_hedgedoc_connector
+#: model:ir.model,name:pad_hedgedoc_connector.model_hedgedoc_pad
+msgid "Hedgedoc Pad"
+msgstr "Pad Hedgedoc"
+
+#. module: pad_hedgedoc_connector
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_res_company__hedgedoc_server_url
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_res_config_settings__hedgedoc_server_url
+msgid "Hedgedoc Server URL"
+msgstr "URL du serveur Hedgedoc"
+
+#. module: pad_hedgedoc_connector
+#: model_terms:ir.ui.view,arch_db:pad_hedgedoc_connector.res_config_settings_view_form_hedgedoc
+msgid "Hedgedoc configuration"
+msgstr "Configuration Hedgedoc"
+
+#. module: pad_hedgedoc_connector
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_create_hedgedoc_pad_wizard__id
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_hedgedoc_pad__id
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_res_company__id
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: pad_hedgedoc_connector
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_create_hedgedoc_pad_wizard____last_update
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_hedgedoc_pad____last_update
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_res_company____last_update
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_res_config_settings____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: pad_hedgedoc_connector
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_create_hedgedoc_pad_wizard__write_uid
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_hedgedoc_pad__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: pad_hedgedoc_connector
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_create_hedgedoc_pad_wizard__write_date
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_hedgedoc_pad__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: pad_hedgedoc_connector
+#: code:addons/pad_hedgedoc_connector/models/hedgedoc_pad.py:0
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_create_hedgedoc_pad_wizard__pad_name
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_hedgedoc_pad__name
+#, python-format
+msgid "Title"
+msgstr "Titre"
+
+#. module: pad_hedgedoc_connector
+#: code:addons/pad_hedgedoc_connector/models/hedgedoc_pad.py:0
+#: model:ir.model.fields,field_description:pad_hedgedoc_connector.field_hedgedoc_pad__url
+#, python-format
+msgid "URL"
+msgstr "URL"
+
+#. module: pad_hedgedoc_connector
+#: model_terms:ir.ui.view,arch_db:pad_hedgedoc_connector.create_hedgedoc_pad_wizard
+msgid "create a new Hedgedoc pad linked to the current task"
+msgstr "Créer un nouveau pad Hedgedoc lié à la tâche courrante"
