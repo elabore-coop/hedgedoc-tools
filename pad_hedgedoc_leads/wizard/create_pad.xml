@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="create_hedgedoc_pad_wizard_lead_inherit" model="ir.ui.view">
+        <field name="name">create.hedgedoc.pad.wizard.lead.inherit</field>
+        <field name="model">create.hedgedoc.pad.wizard</field>
+        <field name="inherit_id" ref="pad_hedgedoc_connector.create_hedgedoc_pad_wizard" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='pad_name']" position="after">
+                <field name="lead_id" invisible="1" />
+            </xpath>
+        </field>
+    </record>
+</odoo>
