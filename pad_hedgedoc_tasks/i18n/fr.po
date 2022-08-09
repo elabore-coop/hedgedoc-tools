@@ -1,0 +1,79 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pad_hedgedoc_tasks
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-10 06:26+0000\n"
+"PO-Revision-Date: 2022-08-10 06:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pad_hedgedoc_tasks
+#: code:addons/pad_hedgedoc_tasks/models/hedgedoc_pad.py:0
+#: model:ir.model.fields,field_description:pad_hedgedoc_tasks.field_hedgedoc_pad__task_id
+#, python-format
+msgid "Associated task"
+msgstr "Tâche associée"
+
+#. module: pad_hedgedoc_tasks
+#: model:ir.model,name:pad_hedgedoc_tasks.model_create_hedgedoc_pad_wizard
+msgid "Create a Hedgedoc Pad"
+msgstr "Créer un pad Hedgedoc"
+
+#. module: pad_hedgedoc_tasks
+#: model_terms:ir.ui.view,arch_db:pad_hedgedoc_tasks.view_task_form2_hedgedoc
+msgid "Create a pad"
+msgstr "Créer un pad"
+
+#. module: pad_hedgedoc_tasks
+#: model_terms:ir.ui.view,arch_db:pad_hedgedoc_tasks.view_task_form2_hedgedoc
+msgid "Current linked pads"
+msgstr "Pads liés"
+
+#. module: pad_hedgedoc_tasks
+#: model:ir.model.fields,field_description:pad_hedgedoc_tasks.field_create_hedgedoc_pad_wizard__display_name
+#: model:ir.model.fields,field_description:pad_hedgedoc_tasks.field_hedgedoc_pad__display_name
+#: model:ir.model.fields,field_description:pad_hedgedoc_tasks.field_project_task__display_name
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#. module: pad_hedgedoc_tasks
+#: model:ir.model,name:pad_hedgedoc_tasks.model_hedgedoc_pad
+msgid "Hedgedoc Pad"
+msgstr "Pad Hedgedoc"
+
+#. module: pad_hedgedoc_tasks
+#: model:ir.model.fields,field_description:pad_hedgedoc_tasks.field_project_task__hedgedoc_pads
+msgid "Hedgedoc Pads"
+msgstr "Pads Hedgedoc"
+
+#. module: pad_hedgedoc_tasks
+#: model_terms:ir.ui.view,arch_db:pad_hedgedoc_tasks.view_task_form2_hedgedoc
+msgid "Hedgedoc pads"
+msgstr "Pads Hedgedoc"
+
+#. module: pad_hedgedoc_tasks
+#: model:ir.model.fields,field_description:pad_hedgedoc_tasks.field_create_hedgedoc_pad_wizard__id
+#: model:ir.model.fields,field_description:pad_hedgedoc_tasks.field_hedgedoc_pad__id
+#: model:ir.model.fields,field_description:pad_hedgedoc_tasks.field_project_task__id
+msgid "ID"
+msgstr "ID"
+
+#. module: pad_hedgedoc_tasks
+#: model:ir.model.fields,field_description:pad_hedgedoc_tasks.field_create_hedgedoc_pad_wizard____last_update
+#: model:ir.model.fields,field_description:pad_hedgedoc_tasks.field_hedgedoc_pad____last_update
+#: model:ir.model.fields,field_description:pad_hedgedoc_tasks.field_project_task____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: pad_hedgedoc_tasks
+#: model:ir.model,name:pad_hedgedoc_tasks.model_project_task
+msgid "Task"
+msgstr "Tâche"

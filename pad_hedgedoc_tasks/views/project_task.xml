@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_task_form2_hedgedoc" model="ir.ui.view">
+        <field name="name">project.task.form.hedgedoc</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_form2" />
+        <field name="priority" eval="99" />
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="inside">
+                <page name="hedgedoc_pads" string="Hedgedoc pads">
+                    <button string="Create a pad" name="create_hedgedoc_pad" type="object" class="oe_stat_button" icon="fa-plus-circle" style="margin: 0px 4px 0px 0px" />
+                    <separator string="Current linked pads" />
+                    <field name="hedgedoc_pads" nolabel="1" mode="tree">
+                        <tree create="0" delete="1">
+                            <field name="name" />
+                            <field name="url" widget="url" />
+                        </tree>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>
